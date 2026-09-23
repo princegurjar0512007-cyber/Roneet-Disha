@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#170b14">
+  <title>Roneet ❤️ Disha</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <audio id="bgMusic" loop preload="auto">
+    <source src="music/dil-haareya.mp3" type="audio/mpeg">
+  </audio>
+
+  <div id="hearts" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="hero-glow"></div>
+    <div class="hero-content reveal">
+      <p class="eyebrow">A little story about two hearts</p>
+      <h1>Roneet <span>♥</span> Disha</h1>
+      <p class="hero-subtitle">Some moments become memories. Some people become home.</p>
+      <button class="primary-btn" id="startBtn">Open Our Story <span>♡</span></button>
+      <p class="music-note" id="musicNote">Tap the button to begin the music & story</p>
+    </div>
+    <div class="scroll-hint">scroll ↓</div>
+  </header>
+
+  <main>
+    <section class="intro section reveal">
+      <p class="eyebrow">For Disha</p>
+      <h2>“If I had to choose again,<br><em>I would still choose you.</em>”</h2>
+      <p>
+        Disha, this little corner of the internet is made from some of my
+        favorite moments with you. I wanted to turn a few photographs into
+        a small story — one that says what words sometimes cannot.
+      </p>
+    </section>
+
+    <section class="gallery section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Our memories</p>
+        <h2>Four moments, one beautiful feeling.</h2>
+      </div>
+
+      <div class="photo-grid">
+        <figure class="photo-card reveal">
+          <img src="photos/photo1.jpeg" alt="Roneet and Disha together">
+          <figcaption>“Somewhere between a smile and a moment, you became my favorite.”</figcaption>
+        </figure>
+
+        <figure class="photo-card reveal">
+          <img src="photos/photo2.jpeg" alt="Roneet looking at Disha">
+          <figcaption>“My eyes somehow find you, even in a room full of people.”</figcaption>
+        </figure>
+
+        <figure class="photo-card reveal">
+          <img src="photos/photo3.jpeg" alt="Roneet and Disha sharing a moment">
+          <figcaption>“The best memories are the ones where I get to be beside you.”</figcaption>
+        </figure>
+
+        <figure class="photo-card reveal">
+          <img src="photos/photo4.jpeg" alt="Roneet and Disha sitting together">
+          <figcaption>“Not a perfect picture — just a perfect moment for me.”</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="shayari section reveal">
+      <div class="shayari-card">
+        <div class="quote-mark">“</div>
+        <p>
+          Apni nigaahon se na dekh khud ko,<br>
+          heera bhi tujhe patthar lagega.<br>
+          Sab kehte honge chaand ka tukda hai tu,<br>
+          <strong>meri nazar se dekh…<br>chaand bhi tera tukda lagega.</strong>
+        </p>
+        <div class="signature">— Roneet, for Disha ❤️</div>
+      </div>
+    </section>
+
+    <section class="letter section reveal">
+      <p class="eyebrow">A few words from me</p>
+      <h2>Disha, there is something I want you to know…</h2>
+      <div class="letter-box">
+        <p>
+          I don't know exactly when you became such an important part of my
+          world. Maybe it happened in the little conversations, the silly
+          smiles, the quiet moments, or simply in the way being around you
+          feels different.
+        </p>
+        <p>
+          I don't need a thousand reasons to smile when one reason is you.
+          Every memory with you feels like a page I want to keep forever.
+        </p>
+        <p>
+          And if life is a story, I don't want to know the ending yet.
+          I just want more pages with you.
+        </p>
+      </div>
+    </section>
+
+    <section class="proposal section reveal" id="proposal">
+      <div class="proposal-content">
+        <div class="ring">💍</div>
+        <p class="eyebrow">One last thing...</p>
+        <h2>Disha, will you keep choosing me?</h2>
+        <p class="proposal-text">
+          I can't promise that every day will be perfect.<br>
+          But I can promise that I'll keep making the ordinary days feel special,
+          keep collecting memories with you, and keep choosing you with all my heart.
+        </p>
+
+        <div class="buttons">
+          <button class="yes-btn" id="yesBtn">YES, ALWAYS ❤️</button>
+          <button class="maybe-btn" id="maybeBtn">Let me think 🙈</button>
+        </div>
+
+        <div id="answer" class="answer" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="ending section reveal">
+      <p class="eyebrow">Our little forever</p>
+      <h2>“You are not just a chapter in my story…<br><em>you are the part I never want to end.</em>”</h2>
+      <p>
+        Whatever comes next, I hope we keep laughing, growing, annoying each
+        other, supporting each other, and making memories that feel like home.
+      </p>
+      <div class="final-names">Roneet <span>♥</span> Disha</div>
+      <p class="forever">Today. Tomorrow. And all the little moments in between. ❤️</p>
+    </section>
+  </main>
+
+  <footer>
+    Made with love by Roneet ♥ for Disha
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
